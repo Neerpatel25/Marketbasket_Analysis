@@ -22,9 +22,7 @@ If {A} Then {B} : A => B
 So to start we need to be introduced to few technical terms :
 
 # Support
-
 # Confidence
-
 # Lift
 
 1. Support: Support is an indication of how frequently the item set appears in the data set. Mathematically,
