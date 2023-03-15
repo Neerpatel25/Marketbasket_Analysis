@@ -21,9 +21,9 @@ If {A} Then {B} : A => B
 
 So to start we need to be introduced to few technical terms :
 
-##Support
-##Confidence
-##Lift
+#Support
+#Confidence
+#Lift
 
 1. Support: Support is an indication of how frequently the item set appears in the data set. Mathematically,
 
@@ -33,11 +33,16 @@ So to start we need to be introduced to few technical terms :
 
 3. Lift: The third measure called the lift or lift ratio is the ratio of confidence to expected confidence. Expected confidence is the confidence divided by the frequency of B. The Lift tells us how much better a rule is at predicting the result than just assuming the result in the first place. Greater lift values indicate stronger associations. Simply, the lift of a rule is the ratio of the observed support to that expected if X and Y were independent. Mathematically,
 
-For Example :
+#For Example :
 
 Assume there are 100 customers.
+
 10 of them bought milk, 8 bought butter and 6 bought both of them.
+
 bought milk => bought butter
+
 support = P(Milk & Butter) = 6/100 = 0.06
+
 confidence = support/P(Butter) = 0.06/0.08 = 0.75
+
 lift = confidence/P(Milk) = 0.75/0.10 = 7.5
